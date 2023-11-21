@@ -5,15 +5,19 @@ class MyShape:
         self.width = width
         self.radius = radius
 
-    def __str__(self):
+    def square(self):
         return f'square:{self.side * self.side}'
 
-    def __str__(self):
+    def rectangle(self):
         return f'rectangle:{self.length * self.width}'
 
-    def __str__(self):
+    def circle(self):
         return f'circle:{self.radius * self.radius * 3.14}'
 
 
 s1 = MyShape(10,5,10,10)
-print(s1)
+print(s1.square())
+print(s1.rectangle())
+print(s1.circle())
+print(s1())
+
