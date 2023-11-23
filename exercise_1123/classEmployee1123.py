@@ -21,21 +21,27 @@ class employee:
         print(self.emp_department)
 
     def print_emp_detail(self):
-        print(self.emp_name,self.emp_id,self.emp_salary,self.emp_department)
+        print('Name:',self.emp_name)
+        print('ID:',self.emp_id)
+        print('Salary:',self.emp_salary)
+        print('Department:',self.emp_department)
+        print('----------------------')
 
-employee1 = employee('E7876','ADAMS',50000,'ACCOUNTING')
-employee2 = employee('E7499','JONES',45000,'RESEARCH')
-employee3 = employee('E7900','MARTIN',50000,'SALES')
-employee4 = employee('E7698','SMITH',55000,'OPERATIONS')
 
-# employee.print_emp_detail(employee1)
-# employee.calculate_emp_salary(employee1,40)
-# employee.print_emp_detail(employee2)
-# employee.calculate_emp_salary(employee2,50)
-# employee.print_emp_detail(employee3)
-# employee.calculate_emp_salary(employee3,60)
+
+employee1 = employee('E7876','Adams',50000,'Accounting')
+employee2 = employee('E7499','Jones',45000,'Research')
+employee3 = employee('E7900','Martin',50000,'Sales')
+employee4 = employee('E7698','Smith',55000,'Operations')
+
+employee.print_emp_detail(employee1)
+employee.calculate_emp_salary(employee1,40)
+employee.print_emp_detail(employee2)
+employee.calculate_emp_salary(employee2,50)
+employee.print_emp_detail(employee3)
+employee.calculate_emp_salary(employee3,60)
 employee.print_emp_detail(employee4)
 employee.calculate_emp_salary(employee4,70)
-employee.emp_assign_department(employee4,'SALES')
+employee.emp_assign_department(employee4,'Sales')
 
 
