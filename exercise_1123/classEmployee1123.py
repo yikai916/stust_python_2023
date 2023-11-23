@@ -35,13 +35,13 @@ employee3 = employee('E7900','Martin',50000,'Sales')
 employee4 = employee('E7698','Smith',55000,'Operations')
 
 employee.print_emp_detail(employee1)
-employee.calculate_emp_salary(employee1,40)
+#employee.calculate_emp_salary(employee1,40)
 employee.print_emp_detail(employee2)
-employee.calculate_emp_salary(employee2,50)
+#employee.calculate_emp_salary(employee2,50)
 employee.print_emp_detail(employee3)
-employee.calculate_emp_salary(employee3,60)
+#employee.calculate_emp_salary(employee3,60)
 employee.print_emp_detail(employee4)
-employee.calculate_emp_salary(employee4,70)
-employee.emp_assign_department(employee4,'Sales')
+#employee.calculate_emp_salary(employee4,70)
+#employee.emp_assign_department(employee4,'Sales')
 
 
