@@ -19,5 +19,4 @@ s1 = MyShape(10,5,10,10)
 print(s1.square())
 print(s1.rectangle())
 print(s1.circle())
-print(s1())
 
