@@ -54,9 +54,13 @@ class Student:
         print(self.getmajor())
         print(self.getteacher())
         print(self.getname())
+        print(self.getstudentID())
+        print(self.getaddress())
+        print(self.getcredit())
+        print(self.getscore())
 
 kevinnn = Student('STUST', 'CSIE', 'Micheal', 'Kevinnn', '4B0G0112', 'Tainan', '100', '10')
 
-Student.printAll(kevinnn)
+kevinnn.printAll()
 
 
