@@ -20,7 +20,7 @@ class Course(Student):
         
     def checkCourse(self):
         self.addCourse(self.course, self.semester)
-        print(self.Course)
+        print(self.course)
         print(self.semester)
 
 obj1 = Student('kevinnn', 'ab1234', 'CSIE')
