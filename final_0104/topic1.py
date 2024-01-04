@@ -7,8 +7,8 @@ class FriedChicken:
         self.size = size
 
     def add_amount(self):
-        add = int(input('數量:')) #輸入數量
-        self.amount += add #數量預設為0，加上輸入數量
+        add = int(input('增加數量:')) #輸入欲增加數量
+        self.amount += add #加上輸入之數量
 
     def choose_flavor(self):
         print(f'口味:{self.flavor}') #列印口味
